@@ -22,7 +22,7 @@ public class Updater {
 		
 		//Quit
 		if (input.isKeyDown(Input.KEY_ESCAPE)){
-			container.exit();
+			global.getCurrent().setMenu(global.getMenuByName("main"));
 		}
 		//Pause
 		if (input.isKeyDown(Input.KEY_P)){
